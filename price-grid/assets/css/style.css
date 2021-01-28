@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla';
+    color: rgb(229, 239, 245)
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh 60vh;
+    grid-template-areas: "m m" "a s";
+}
+
+main {
+    grid-area: m;
+}
+
+main h1 {
+    color:  rgb(42, 178, 175); 
+}
+
+main h2 {
+    color: rgb(192, 223, 52)
+}
+
+main p {
+    color:rgb(152, 166, 189);
+}
+
+article {
+    grid-area: a;
+    background-color: rgb(42, 178, 175);  
+    text-align: center;  
+}
+
+section {
+    grid-area: s;
+    background-color: rgba(42, 178, 175, 80%);
+}
+
+
+button {
+    border: none;
+    width: 80%;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: rgb(192, 223, 52);
+}
