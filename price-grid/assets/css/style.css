@@ -105,7 +105,7 @@ article button:hover {
 
 .price {
     font-size: 4em;
-    color: rgba(229, 239, 245, 80%);
+    
     display: inline;  
 }
 
@@ -113,6 +113,7 @@ article button:hover {
     font-size: .3em;
     vertical-align: middle;
     margin: 10px 0 0 5px;
+    color: rgba(229, 239, 245, 80%);
 }
 
 
@@ -143,7 +144,7 @@ article button:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 100vh 50vh 50vh; /* 30 / 40 */
-        grid-template-areas: "m" "s" "a";
+        grid-template-areas: "m" "a" "s";
         font-size: 1.2em;
     }
 
